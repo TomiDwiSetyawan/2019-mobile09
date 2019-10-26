@@ -22,4 +22,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, Tugas1.class));
     }
 
+    public void handle_tugas2(View view) {
+        startActivity(new Intent(this, Tugas2.class));
+    }
 }
