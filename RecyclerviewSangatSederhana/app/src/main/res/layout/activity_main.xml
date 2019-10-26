@@ -61,5 +61,6 @@
         android:text="Tugas 3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_tugas2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_tugas2"
+        android:onClick="handle_tugas3"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

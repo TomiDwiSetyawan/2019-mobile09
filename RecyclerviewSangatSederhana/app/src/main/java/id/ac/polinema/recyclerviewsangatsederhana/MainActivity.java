@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
     public void handle_tugas2(View view) {
         startActivity(new Intent(this, Tugas2.class));
     }
+
+    public void handle_tugas3(View view) {
+        startActivity(new Intent(this, Tugas3.class));
+    }
 }
